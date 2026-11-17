@@ -1,0 +1,114 @@
+<!-- flexbox -->
+<!-- img, h1, h2, h3, p, div, section, nav, article, a -->
+<!-- anchor tags (links) are for navigation -->
+<!-- buttons do actions. sends a form, runs some JS -->
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Joe's Travel</title>
+  </head>
+  <body>
+    <header id="header">
+      <h1>Joe's Travel</h1>
+      <nav>
+        <ul id="nav-container">
+          <li><a href="#header">Header</a></li>
+          <li><a href="#locations">Locations</a></li>
+          <li><a href="#deals">Deals</a></li>
+          <li><a href="#benefits">Benefits</a></li>
+          <li><a href="#newsletter">Newsletter</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero">
+        <div class="container" id="hero-content">
+          <div id="hero-text">
+            <p class="small-heading">New locations!</p>
+            <h2>Travel in style with our brand new jet!</h2>
+            <p>Fully exclusive hotels, pools, trips and more!</p>
+            <div id="hero-buttons">
+              <a href="#locations" class="button blue-button">Shop Now</a>
+              <a href="#deals" class="button white-button">View Deals</a>
+            </div>
+          </div>
+          <img
+            src="images/plane.jpg"
+            alt="The view from an airplane looking out over clouds and sunny skies"
+            id="hero-image"
+          />
+        </div>
+      </section>
+
+      <section id="products">
+        <div class="container">
+          <div class="section-title">
+            <p class="small-heading">Featured Locations</p>
+            <h2>Popular this week</h2>
+          </div>
+
+          <div id="product-row">
+            <article class="product-card">
+              <img
+                src="images/beach.jpg"
+                alt="A sunny beach"
+                class="product-image"
+              />
+
+              <div class="product-text">
+                <h3>Mandal</h3>
+                <p>Come to Mandal! Enjoy our warm beaches and cold drinks 🍹</p>
+                <div class="price-buy-container">
+                  <p class="price">7,000 kr</p>
+                  <button class="button blue-button">Book Now!</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                src="images/mountains.jpg"
+                alt="A sunny beach"
+                class="product-image"
+              />
+
+              <div class="product-text">
+                <h3>Mandal</h3>
+                <p>
+                  Come to Mandal! Enjoy our warm beaches and cold drinks 🍹Lorem
+                  ipsum dolor sit amet consectetur adipisicing elit. Aliquam!
+                </p>
+                <div class="price-buy-container">
+                  <p class="price">7,000 kr</p>
+                  <button class="button blue-button">Book Now!</button>
+                </div>
+              </div>
+            </article>
+
+            <article class="product-card">
+              <img
+                src="images/pool.jpg"
+                alt="A sunny beach"
+                class="product-image"
+              />
+
+              <div class="product-text">
+                <h3>Mandal</h3>
+                <p>Come to Mandal! Enjoy our warm beaches and cold drinks 🍹</p>
+                <div class="price-buy-container">
+                  <p class="price">7,000 kr</p>
+                  <button class="button blue-button">Book Now!</button>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
